@@ -1,0 +1,37 @@
+# =========================
+# Python / Virtual Envs
+# =========================
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# OS / Editor Junk
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Data (DO NOT COMMIT)
+# =========================
+data/raw/
+data/processed/
+
+# =========================
+# Model Artifacts (DO NOT COMMIT)
+# =========================
+artifacts/
+*.pkl
+
+# =========================
+# Logs / Runtime
+# =========================
+*.log
+*.tmp
+*.cache
+
